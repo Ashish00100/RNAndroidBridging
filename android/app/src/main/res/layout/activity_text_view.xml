@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cardview_dark_background">
+
+    <ImageView
+        android:layout_width="392dp"
+        android:layout_height="288dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/dummy_profile" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="150dp"
+            android:background="@color/common_google_signin_btn_text_dark"
+            android:outlineSpotShadowColor="@color/red"
+            android:scaleType="fitCenter"
+            android:rotation="180"
+            android:src="@drawable/upward" />
+
+        <ImageButton
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:background="@color/common_google_signin_btn_text_dark"
+            android:scaleType="fitCenter"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:src="@drawable/upward" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/textInput"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@color/white"
+        android:hint="Enter The Text"
+        android:inputType="text"
+        android:textColor="@color/red"
+        android:textColorHint="@color/red" />
+
+    <Button
+        android:id="@+id/home_screen"
+        android:layout_width="179dp"
+        android:layout_height="57dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/white"
+        android:text="Submit"
+        android:textColor="@color/red"
+        android:textColorHint="@color/red" />
+
+</LinearLayout>
